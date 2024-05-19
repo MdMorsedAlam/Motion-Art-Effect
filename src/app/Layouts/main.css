@@ -1,0 +1,40 @@
+canvas{
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .a-title {
+    position: absolute; /* Positions the element */
+    color: transparent; /* Makes the text color transparent */
+    -webkit-background-clip: text; /* Allows the background to be clipped according to the text (WebKit browsers) */
+    background-clip: text; /* Allows the background to be clipped according to the text (standard) */
+    -webkit-text-fill-color: transparent; /* Makes the text fill color transparent */
+    background-image: conic-gradient(#ed0101, blue); /* Sets a conic gradient background */
+    pointer-events: none; /* Prevents the element from being a target for mouse events */
+    mix-blend-mode: difference; /* Sets the blending mode to difference */
+    filter: drop-shadow(2px 4px 6px black); /* Applies a drop shadow effect */
+}
+
+  .a-second-title {
+    position: absolute;
+    margin-top: 25vh;
+    pointer-events: none;
+    -webkit-text-stroke: 1.3px white;
+    letter-spacing: 1.125px;
+    font-size: -webkit-xxx-large;
+    font-weight: 900;
+    mix-blend-mode: color-dodge;
+  }
+  
+ 
