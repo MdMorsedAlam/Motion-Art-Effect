@@ -5,9 +5,11 @@ import Home from "../Pages/Home";
 const MainLayout = () => {
     
   return (
-    <main style={{zIndex:99999,position:"absolute",top:0,left:0,opacity:0.9}}>
-      
+    <main className="absolute pointer-events-none top-0 left-0 z-50 w-[100%] h-[100%]">
+      <div className="container mx-auto">
       <Home/>
+      </div>
+      
         
     </main>
   );

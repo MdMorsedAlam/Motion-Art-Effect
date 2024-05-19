@@ -41,7 +41,7 @@ const CanvasEffect = () => {
     }, []);
 
     return (
-        <canvas ref={canvasRef} style={{ width: "100vw", height: "100vh" }} />
+        <canvas style={{height:"100vh",width:"100vw",position:"fixed"}} ref={canvasRef} />
     );
 };
 

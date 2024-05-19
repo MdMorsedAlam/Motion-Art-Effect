@@ -1,3 +1,5 @@
+import Banner from "../Components/Home/Banner";
+import Navbar from "../Components/Home/Navbar";
 
 
 const Home  = () => {
@@ -5,9 +7,10 @@ const Home  = () => {
 
    
     return (
-        <>
-        <h1 className="text-red-600">Hello</h1>
-        </>
+        <section>
+        <Navbar/>
+        <Banner/>
+        </section>
     );
 };
 
