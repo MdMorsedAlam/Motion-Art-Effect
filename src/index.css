@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap");
-html,
-body {
-  overflow: hidden;
-}
 
-body {
-  margin: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
 
 .text-gradient {
   background: linear-gradient(90deg,#f87516 0%, #5e11ff 100%);

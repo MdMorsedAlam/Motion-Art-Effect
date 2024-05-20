@@ -41,7 +41,7 @@ const CanvasEffect = () => {
     }, []);
 
     return (
-        <canvas style={{height:"100vh",width:"100vw",position:"fixed"}} ref={canvasRef} />
+        <canvas className="w-full h-screen fixed z-0" ref={canvasRef} />
     );
 };
 
