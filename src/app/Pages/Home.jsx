@@ -11,7 +11,7 @@ const Home  = () => {
 
    
     return (
-        <section className="container mx-auto">
+        <section className="container px-5 xl:px-0 mx-auto">
         <Navbar/>
         <Banner/>
         <Review/>

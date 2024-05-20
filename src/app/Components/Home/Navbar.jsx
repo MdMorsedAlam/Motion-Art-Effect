@@ -2,7 +2,7 @@ import logo from "./../../../assets/MotionArtEffect-logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between mt-16">
+    <nav className="flex justify-between items-center mt-10">
       <div>
         <img src={logo} alt={logo} />
       </div>

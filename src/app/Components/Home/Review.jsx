@@ -32,7 +32,7 @@ const Review = () => {
       </h1>
       <div className="mt-12 flex justify-between">
         {reviewData.map((item, i) => (
-          <div key={i} className="flex justify-center items-center gap-3">
+          <div key={i} className="flex flex-1 justify-center items-center gap-3">
             <img src={item.img} alt={item.img} />
             <div className="flex flex-col gap-3">
               <img src={item.start} alt={item.start} />
@@ -44,7 +44,7 @@ const Review = () => {
           </div>
         ))}
       </div>
-      <div className="mt-12 flex justify-between">
+      <div className="mt-12 flex flex-col-reverse lg:flex-row justify-between">
         <div>
           <h1 className="font-sora text-4xl font-medium text-[#EEE5FF]">
             Turn Your Cursor Into A Colorful Magic
@@ -61,7 +61,9 @@ const Review = () => {
             Purchase From Envato <BsArrowRight />
           </button>
         </div>
-        <img src={magicImg} alt={magicImg} />
+        <div className="flex justify-center items-center">
+        <img className="lg:w-full w-[350px] h-full" src={magicImg} alt={magicImg} />
+        </div>
       </div>
     </section>
   );
